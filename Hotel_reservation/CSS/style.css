@@ -1,0 +1,61 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    font-family: Calibri;
+}
+
+body{
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 3%;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: gray;
+    padding: 5px 20px;
+    border: 1px solid;
+}
+footer{
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: burlywood;
+    color: blueviolet;
+    text-align: center;
+
+}
+header{
+
+    background-color: aqua;
+}
+
+
+h1 {
+    font-family: "High Tower Text";
+    font-size: 3em;
+
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    width: 600px;
+    text-align: center;
+    box-shadow: 4px 4px 4px #888888;
+    margin-top: 10px;
+
+
+}
+
+
+
+
