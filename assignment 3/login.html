@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>APNA HOTEL</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body background="CSS/images/man.jpg">
+
+
+<form action="action_page.php">
+    <div class="container">
+        <h1>Login</h1>
+
+
+        <hr>
+        <div class="txt">
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="Enter Email" name="email" required title="Enter Email" name="email" required>
+
+
+            <label for="psw"><b>Password</b></label>
+
+            <input type="password" name="psw" id="password" placeholder="Password must contain 1 uppercase, lowercase and number" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" title="Password must contain 1 uppercase, lowercase and number" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+        </div>
+        <hr>
+
+
+        <button type="submit" class="registerbtn">Login</button>
+    </div>
+</form>
+
